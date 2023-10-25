@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* ----Header ----*/
+body{
+    background: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.8) 0,  rgba(0, 0, 0, 0.8) 100%),url("Images/Header.jpg");
+    background-position: center;
+    padding: 10px 8%;
+    positon: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+   /* border: 2px solid white; */
+}
+.logo{
+    top: 10px;
+    margin-left: 50px;
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0%;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.btns{
+    margin-right: 50px;
+}
+
+.lang-btn{
+    background:rgb(22 22 22 / 70%);
+    border: 1px solid rgb(128 128 128 / 70%);
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 10px;
+    margin-right: 10px
+     }
+.lang-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    width:100%;
+    text-align: center;
+    /*border: 2px solid white;*/
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+}
+.header-content h1{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.header-content h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  
+}
+#para{
+    font-size: 20px;               
+    margin-bottom: 20px;
+}
+/*.email-signup{
+    display:flex;
+    background: rgb(22 22 22 / 70%);
+    border-radius: 4px;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 35%;
+    margin-left:500px;
+}*/
+/*.email-signup input{
+    background-color: rgb(22 22 22 / 70%);;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}*/
+.email-signup input{
+    border:1px solid white;
+    border-radius: 4px;
+    background:rgb(22 22 22 / 70%);;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding:15px 30px;
+    margin-left:10px;
+    width: 400px;
+
+}
+.email-signup button{
+    border-radius: 4px;
+    background:red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding:15px 30px;
+    margin-left:10px;
+}
+.email-signup button:hover{
+    background-color:rgb(22 22 22 / 70%);
+}
+/*
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 50px 0;    
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}*/
+.space{
+    width: 100%;
+    height: 10px;
+    background-color:rgb(22 22 22 / 70%);
+}
+.features{
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+}    
+/*----Features1----*/
+.features1-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   /* border: 2px solid white;*/
+
+}
+.features1-content h2{
+    margin-left: 180px;     
+    font-size: 45px;
+    font-weight:900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#para1{
+    margin-left: 180px;
+    margin-top: 20px;
+    /*border:2px solid #db0001;*/
+    font-size: 24px;
+}
+.features1-img{
+    margin-left:20px;
+   /*border:2px solid green;*/
+}
+/*----Features2----*/
+.features2-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 2px solid white;*/
+}
+.features2-content h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#para2{
+    font-size: 24px;
+    margin-top: 20px;
+}
+/*----Features3----*/
+.features3-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   /* border: 2px solid white;*/
+
+}
+.features3-content h2{    
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 180px;
+}
+#para3{
+    margin-top: 20px;
+    /*border:2px solid #db0001;*/
+    font-size: 24px;
+    margin-left: 180px;
+}
+.features1-img{
+    margin-left:20px;
+   /*border:2px solid green;*/
+}
+/*----Features4----*/
+.features4-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 2px solid white;*/
+}
+.features4-content h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#para4{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/*------faq------*/
+.faq{
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 10px 12%;
+} 
+.faq h2{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 900;
+}
+.accordion{
+    margin:60px;
+    width: 100%;
+}
+.accordion li{
+    list-style: none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font-size:18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position:absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .note{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .note{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq small{
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 20px;
+}
+.footer p{
+    margin-left: 210px;
+    font-size: 16px;
+    color: grey;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col a{
+    padding: 10px;
+    color: grey;
+
+}
